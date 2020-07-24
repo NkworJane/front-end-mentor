@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+   box-sizing: border-box;
+}
+#header{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin:10px 40px;
+}
+
+.logo{
+    flex-basis: 30%;
+}
+.nav-list{
+    display:flex;
+    flex-wrap:wrap;
+    flex-basis:70%;
+    justify-content: space-evenly;
+}
+.link-lists{
+   justify-content: space-evenly;
+   font-size: 16px;
+   font-weight: 10px;
+}
+
+/* button .git-btn .git{
+    width:15px;
+    height:10px;
+
+} */
+
+.link-lists a{
+    text-decoration: none; 
+    color:inherit; 
+    font-style: italic;
+     
+}
+
+.git-btn{
+    background-color: #000;
+    border-radius: 20px;
+    border:none;
+    color:#fff;
+    padding:10px;
+}
+
+/* section-2 */
+
+ .challenges{
+    margin:15px 50px;
+    padding:1px;
+}
+
+/*.line-1{
+    margin-left: 30px;
+    height:1500rem;
+    
+    border:1px solid #ccc;
+}
+
+.line-2{
+    margin-right: 30px;
+    height:50rem;
+    border:1px solid #ccc;
+}*/
+ 
+
+/* section-3 */
+#section-3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.left-col{
+    flex-basis: 50%;
+    margin: 20px;
+}
+
+.left-col img{
+    width:100%;
+}
+
+.right-col{
+    flex-basis: 50%;
+    text-align:left;
+    max-width:500px;  
+    display:inline-block
+}
+.right-col h2{
+    font-size:30px;
+    margin:10px 0 30px;
+}
+.html{
+    color: #6ABECD;
+    padding-right:10px;
+    margin-left:10px;
+    padding-top: 10px;
+}
+.css{
+    padding-top: 10px;
+    padding-left:10px;
+    color:#3E54A3;
+
+}
+.free{
+    background-color:#6ABECD;
+    color:#fff;
+    border: none;
+    padding:5px;
+    border-radius: 3px;
+    float: right;
+}
+.right-col h5{
+   display:inline;
+}
+.right-col .btn{
+    width:40px;
+    height: 3px;
+    border-radius: 10px;
+    border:none;
+    background-color: #ccc;
+    margin: 10px;
+    padding:2px;
+
+}
+
+.right-col .btn1{
+    background-color:#5AE2A9 ;
+}
+
+.right-col h4{
+    color: #5AE2A9;
+    text-align: center;
+}
+
+.right-col .btn6{
+    background-color: #ED2C49;
+    text-align: center;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    padding:20px;
+    font-weight:10px;
+    margin:20px;
+}
+
+.right-col .download-options{
+   
+    margin-top:10px;
+    background-color: #F0F4F4;
+    display: block;
+    width:80vh;
+    padding:20px;
+   
+}
+.download-options a{
+    color:inherit
+}
+.download-options p{
+    font-size: 14px;
+}
+.download-options .pass{
+    width:15px;
+    margin-right:10px;
+
+}
+
+
+/* section 4 */
+.sketch{
+    border: 1px solid #ccc;
+    margin:20px;
+    text-align: center;
+    padding:20px;
+}
+.sketch .diamond{
+    width:40px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.sketch h4{
+    margin-bottom: 10px;
+    font-size:15px;
+}
+.sketch p{
+    margin-bottom: 10px; 
+    font-size: 16px;
+    /* padding:5px; */
+  
+}
+
+.sketch button{
+    margin-bottom: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px;
+    width: 25%;
+    background-color: #ED2C49;
+    text-align: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    font-weight:10px;
+
+}
+
+/* challenges */
+.challenge{
+    text-align: center;
+    font-size:15px;
+    padding:20px;
+
+}
+/* section-5 */
+
+#section-5{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:20px;
+}
+.left-col-5{
+    flex-basis: 50%;
+    margin: 20px;
+}
+.left-col-5 p{
+    padding-bottom:10px;
+    font-size:16px;
+}
+
+.right-col-5{
+    flex-basis: 50%;
+    text-align:left;
+    max-width:500px;  
+    display:inline-block;
+}
+.right-col-5 li{
+    padding-bottom:10px;
+    font-size:16px;
+}
+
+.left-col-5 h4, .right-col-5 h4{
+    font-size:28px;
+    padding-bottom:10px;
+    text-align: left;
+    
+}
+
+.left-col-5 a, .right-col-5 a{
+    color:inherit;
+    
+}
+
+.left-col-5 span, .right-col-5 span{
+   background-color: #ccc;
+    
+}
+
+.section-5-btn{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px;
+    width: 25%;
+    background-color:#ED2C49;
+    text-align: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    padding:20px;
+    font-weight:10px;
+    margin:20px;
+}
+/* section-6 */
+.faqs{
+    text-align: center;
+    font-size:15px;
+    padding:20px;
+    margin-top: 60px;
+}
+#section-6{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+.left-col-6, .right-col-6{
+    flex-basis:40%;
+    width:100%;
+    
+}
+ .line{
+    width:50px;
+    height: 2px;
+    background-color: #000;
+    margin: 10px;
+}
+
+/* <!-- SECTION-7 --> */
+.slack{
+    margin:20px 10px;
+    padding:20px;
+    border:none;
+    background: rgb(75, 91, 155,0.9);
+    color:#fff;
+    text-align: center;
+   
+
+}
+
+.section-7 .slack{
+    background-image: url(images/slack1.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    transform: rotate(20deg);
+}
+
+.slack-text h3{
+    padding:20px;
+
+}
+.slack-text p{
+    padding:20px;
+    font-size: 28px;
+}
+.slack-text .form-invite{
+    padding:20px;
+
+}
+.slack-text .form-invite input{
+    background: rgba(255,255,255,0.4);
+    border:none;
+    outline:none;
+    color:#fff;
+    box-shadow:0 2px 10px 1px rgba(0,0,0,0.5);
+    width: 40%;
+    height:50px;
+    box-sizing: border-box;
+
+}
+.slack-text .form-invite button{
+    padding:10px;
+    border-radius: 15px;
+    background-color: #fff;
+    color:#086fe4da;
+    border:none;
+    font-size:1rem;
+}
+
+/* section-8 */
+
+ #section-8{
+    height: 100vh;
+    background-image: url(images/bg-img.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+} 
+.left-col-8{
+    flex-basis: 50%;
+    margin: 20px;
+    padding:20px;
+    text-align:left;
+}
+.left-col-8 h3{
+ padding:10px;
+ font-size: 15px;
+}
+.left-col-8 p{
+    padding:10px;
+    font-size: 28px;
+}
+/* .left-col-8  input .check{
+    border:10px solid #086fe4da;
+} */
+
+
+.left-col-8 h5{
+    display:inline;
+    padding-left:5px;
+    font-size: 16px;
+}
+
+form input{
+    border:1px solid #000 ;
+    outline:none;
+    color:#fff;
+    width: 50%;
+    height:50px;
+}
+
+form button{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 40px;
+    width: 160px;
+    background-color: red;
+    text-align: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    padding:20px;
+    font-weight:10px;
+    margin:20px;
+}
+
+.right-col-8 img{
+    width:100%;
+}
+
+.right-col-8{
+    flex-basis: 50%;
+    text-align:left;
+    max-width:500px;  
+    display:inline-block;
+
+}  
+
+/* footer */
+#footer{
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+
+}
+
+ .left-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin: 30px;
+    padding:20px;
+    text-align:left;
+    width:50%;
+    align-items: flex-start;
+}
+.left-col1 p, .left-col2 p, .left-col3 p{
+    padding-right:3rem;
+    padding-bottom: 5px;
+    font-size:12px;
+}
+.left-col1 h3, .left-col2 h3, .left-col3 h3{
+    font-size:15px;
+    padding-right:3rem;
+    padding-bottom: 5px;
+   
+}
+
+.right-row img{
+   margin: 5px;
+    width: 60px;
+    height: 60px;
+  
+}
+
+/* last-line */
+.last-line{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color:#ccc;
+    padding:20px;
+    margin:20px;
+    font-size:10px;
+}
+
+.second-last-line{
+    display:inline;
+}
+
+/* media-queries */
+@media only screen and (max-width:770px){
+    .left-col{
+        flex-basis: 100%;
+    }
+    .right-col{
+        flex-basis:100%;
+        margin-top:20px;
+
+    }
+    .sketch p{
+        margin-bottom: 10px; 
+        font-size: 12px;
+       
+      
+    }
+    .sketch button{
+        padding: 10px;
+        font-size:15px;
+        width: 60%;
+    }
+    .left-col-5{
+        flex-basis: 100%;
+        font-size:8px;
+      
+    }
+    .right-col-5{
+        flex-basis:100%;
+        font-size:8px;
+        margin-top:15px;
+        margin-left:30px;
+    }
+    .section-5-btn{
+        padding: 10px;
+        font-size:15px;
+        width: 60%;
+    }
+    .left-col-6{
+        flex-basis:100%;
+        width:100%;  
+    }
+    .right-col-6{
+        flex-basis:100%;
+        margin-top: 10px;
+    }
+    .slack-text p,.slack-text h3{
+        font-size: 18px;
+    }    
+    .slack-text .form-invite input{
+        display: block;
+        width: 90%;
+    }
+    .slack-text .form-invite button{
+        width: 50%; 
+
+    }
+    #section-8{
+        background:none;
+        height: 50vh;
+        padding:5px;
+        display: flex;
+        align-items: left;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .left-col-8{
+        flex-basis: 100%;
+    }
+    .left-col-8 p{
+        font-size:15px;
+    }
+    .left-col-8 h3{
+        font-size: 15px;
+    }
+    .left-col-8 h5{
+        font-size:12px;
+    }
+    .right-col-8 img{
+       display:none;
+    }
+    form input{
+        width: 100%;
+        margin: 10px;
+    }
+    form button{
+       width:50%;
+       margin:10px;
+    }
+    #footer{
+        display: flex;
+        align-items: left;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .left-row{
+        width: 100%;
+        flex-basis:100%;
+        display: block;
+     
+    }
+     .left-col1 , .left-col2 , .left-col3 {
+         margin-bottom: 15px;  
+         
+     }
+    .left-col1 p, .left-col2 p, .left-col3 p {
+        padding-bottom: 10px;
+        font-size:15px;
+
+    }
+    .left-col1 h3, .left-col2 h3, .left-col3 h3{
+        padding-bottom: 10px;
+        font-size:15px;
+    }
+    .right-row {
+        float: basis 100%;
+        width: 100%;
+        justify-items: center;
+    }
+}
